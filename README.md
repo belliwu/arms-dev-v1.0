@@ -3,7 +3,7 @@
 > Assisted Reproductive Management System for TMUH
 ---
 
-## Devlope Env, Setup
+## Devlopement Setup
 
 ``` bash
 # Initial vue webpack arms-dev-v1.0
@@ -19,6 +19,28 @@ npm install popper.js --save-dev
 2. import jQuery from "jquery"
 3. let bootstrap = require("bootstrap")
 4. import "bootstrap/dist/css/bootstrap.css"
+
+# Install font-awesome package
+1.Version 4.7: 
+npm install font-awesome@4.7.0 --save
+
+2.Version 5.2: (free version)
+npm install --save @fortawesome/fontawesome-svg-core 
+npm install --save @fortawesome/free-solid-svg-icons
+npm install --save @fortawesome/vue-fontawesome
+
+# Import below package or library in main.js
+1. Version 4.7: 
+import 'font-awesome/css/font-awesome.min.css' 
+
+2.Version 5.2: (free version)
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { faCoffee } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+
+library.add(faCoffee) --> choose coffee icons
+
+Vue.component('font-awesome-icon', FontAwesomeIcon)
 ```
 
 ## Build Setup

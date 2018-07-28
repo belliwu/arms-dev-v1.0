@@ -31,6 +31,10 @@
         </ul>
       </div>
     </nav>
+
+    <i class="fa fa-toggle-on" aria-hidden="true">Toggle-on</i>
+    <i class="fa fa-sign-in" aria-hidden="true">Login</i>
+
     <hr>
     <span class="badge badge-primary">Primary</span>
     <span class="badge badge-secondary">Secondary</span>

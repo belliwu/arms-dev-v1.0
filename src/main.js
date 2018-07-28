@@ -4,13 +4,14 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 
-//---------- Import bootstrap4 -----------------
+//---------- Import bootstrap 4 -----------------
 global.jQuery = jQuery
 import jQuery from "jquery"
 let bootstrap = require("bootstrap")
 import "bootstrap/dist/css/bootstrap.css"
 
-//---------- End for bootstrap4 -----------------
+//---------- Import font-awesome  -----------------
+import 'font-awesome/css/font-awesome.min.css'
 
 Vue.config.productionTip = false
 
