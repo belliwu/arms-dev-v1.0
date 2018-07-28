@@ -3,21 +3,25 @@
 > Assisted Reproductive Management System for TMUH
 
 ## Develope Environment Setup
-# Initial vue webpack arms-dev-v1.0
+### Initial vue webpack arms-dev-v1.0
 vue init webpack  arms-dev-v1.0
 
-# Install bootstrap 4 package
+### Install bootstrap 4 package
+
+``` bash
 npm install bootstrap --save
 npm install jquery --save-dev
 npm install popper.js --save-dev
+---
 
-# Import below package or library in main.js
-//---------- Import bootstrap4 -----------------
+### Import below package or library in main.js
+
+``` bash
 global.jQuery = jQuery
 import jQuery from "jquery"
 let bootstrap = require("bootstrap")
 import "bootstrap/dist/css/bootstrap.css"
-//---------- End for bootstrap4 -----------------
+```
 
 ## Build Setup
 
