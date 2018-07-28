@@ -13,6 +13,11 @@ import "bootstrap/dist/css/bootstrap.css"
 //---------- Import font-awesome  -----------------
 import 'font-awesome/css/font-awesome.min.css'
 
+//---------- Import mdbootstrap  -----------------
+// import 'mdbootstrap'
+import 'mdbvue/build/css/mdb.css'
+
+//------------------------------------------------------
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */

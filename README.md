@@ -29,7 +29,7 @@ npm install --save @fortawesome/fontawesome-svg-core
 npm install --save @fortawesome/free-solid-svg-icons
 npm install --save @fortawesome/vue-fontawesome
 
-# Import below package or library in main.js
+# Registers font-awesome in main.js of Vue
 1. Version 4.7: 
 import 'font-awesome/css/font-awesome.min.css' 
 
@@ -41,6 +41,13 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 library.add(faCoffee) --> choose coffee icons
 
 Vue.component('font-awesome-icon', FontAwesomeIcon)
+
+# Install Material Design for Bootstrap 4 using npm
+# npm install mdbootstrap
+npm install mdbvue --save-dev
+
+# Registers MDB in main.js of Vue
+import 'mdbvue/build/css/mdb.css'
 ```
 
 ## Build Setup
