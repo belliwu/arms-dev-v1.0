@@ -14,12 +14,28 @@ vue init webpack arms-dev-v1.0
 npm install bootstrap --save
 npm install jquery --save-dev
 npm install popper.js --save-dev
+npm install sass-loader node-sass --save-dev
+
+# Import below package or library in /build/webpack.base.conf.js
+1. let webpack = require('webpack')
+2  module.exports = {
+    entry: {},
+    output: {},
+    resolve: {},
+    module: {},
+    plugins:
+    [
+      new webpack.ProvidePlugin({
+        jQuery: 'jquery',
+             $: 'jquery',
+        jquery: 'jquery'
+      })
+    ]
+  }
 
 # Import below package or library in main.js
-1. global.jQuery = jQuery
-2. import jQuery from "jquery"
-3. let bootstrap = require("bootstrap")
-4. import "bootstrap/dist/css/bootstrap.css"
+1. import 'bootstrap/scss/bootstrap.scss'
+2 import 'bootstrap'
 
 # Install font-awesome package
 1.Version 4.7:

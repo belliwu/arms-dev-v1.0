@@ -1,5 +1,6 @@
 <template>
   <div class="hello">
+    <h1>This is test page with scss !</h1>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand" href="#">Navbar</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,6 +32,8 @@
         </ul>
       </div>
     </nav>
+    <hr>
+
   </div>
 </template>
 
@@ -38,7 +41,7 @@
 export default {};
 </script>
 
-
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
+<style lang="scss">
+@import "@/assets/css/myScss.scss";
 </style>

@@ -9,6 +9,7 @@ global.jQuery = jQuery;
 import jQuery from "jquery";
 let bootstrap = require("bootstrap");
 import "bootstrap/dist/css/bootstrap.css";
+import "bootstrap/scss/bootstrap.scss";
 
 //---------- Import font-awesome  -----------------
 import "font-awesome/css/font-awesome.min.css";
