@@ -32,13 +32,14 @@
         </ul>
       </div>
     </nav>
-    <hr>
 
+    <hr>
   </div>
 </template>
 
-<script>
-export default {};
+<script scoped>
+export default {
+};
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->

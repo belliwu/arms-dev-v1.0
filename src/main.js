@@ -5,14 +5,14 @@ import App from "./App";
 import router from "./router";
 
 //---------- Import bootstrap 4 -----------------
-global.jQuery = jQuery;
-import jQuery from "jquery";
-let bootstrap = require("bootstrap");
-import "bootstrap/dist/css/bootstrap.css";
-import "bootstrap/scss/bootstrap.scss";
+// global.jquery = jQuery;
+// import jQuery from "jquery";
+// let bootstrap = require("bootstrap");
+// import "bootstrap/dist/css/bootstrap.css";
+// import "bootstrap/scss/bootstrap.scss";
 
 //---------- Import font-awesome  -----------------
-import "font-awesome/css/font-awesome.min.css";
+// import "font-awesome/css/font-awesome.min.css";
 
 //------------------------------------------------------
 Vue.config.productionTip = false;
